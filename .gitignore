@@ -105,5 +105,4 @@ dist
 
 # Jekyll
 _site/
-assets/
 .jekyll-cache/
