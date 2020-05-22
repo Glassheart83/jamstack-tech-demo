@@ -2,12 +2,11 @@
   "name": "jamstack-tech-demo",
   "version": "0.0.1",
   "description": "Tech demo using Jekyll and Webpack to build a fully featured website",
-  "main": "index.js",
   "scripts": {
-    "clean": "shx rm -rf ./_site ./dist",
-    "start": "yarn clean && yarn webpack && bundle exec jekyll serve",
-    "webpack": "webpack --mode=development --progress --profile --colors",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "shx rm -rf ./_site ./src/assets",
+    "start": "yarn clean && yarn webpack:dev && bundle exec jekyll serve",
+    "build": "yarn clean && yarn webpack:dev && jekyll build",
+    "webpack:dev": "webpack --mode=development --progress --profile --colors"
   },
   "repository": {
     "type": "git",

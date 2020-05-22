@@ -104,6 +104,6 @@ dist
 .tern-port
 
 # Jekyll
-_site
-assets
-.jekyll-cache
+_site/
+assets/
+.jekyll-cache/
