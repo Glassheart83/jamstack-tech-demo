@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "shx rm -rf ./_site ./src/assets",
     "start": "yarn clean && yarn webpack:dev && bundle exec jekyll serve",
-    "build": "yarn clean && yarn webpack:dev && jekyll build",
+    "build": "yarn clean && yarn webpack:dev && bundle exec jekyll build",
     "webpack:dev": "webpack --mode=development --progress --profile --colors"
   },
   "repository": {
@@ -27,8 +27,20 @@
   },
   "homepage": "https://github.com/Glassheart83/jamstack-tech-demo#readme",
   "devDependencies": {
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^8.0.2",
     "shx": "^0.3.2",
+    "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
