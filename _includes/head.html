@@ -1,25 +1,13 @@
-<head>
-    <meta charset="utf-8" />
-    <title>
-        {% if page.title %}
-            {{page.title}} - {{site.title}}
-        {% else%}
-            {{site.title}}
-        {% endif %}
-    </title>
+<meta charset="utf-8" />
 
-    <meta name="description" content="{{ page.description }}" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="{{ page.description }}" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Plugins -->
-    {% seo %}
-    {% feed_meta %}
+<!-- Plugins -->
+{% seo %}
+{% feed_meta %}
 
-    <!-- Styles -->
-    <!-- <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}"> -->
-
-    <!-- Scripts -->
-    <script src="{{ "/assets/js/home.bundle.js" | relative_url }}"></script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/e8a9efb5b7.js" crossorigin="anonymous"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
