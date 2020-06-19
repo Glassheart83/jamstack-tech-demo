@@ -5,3 +5,5 @@ header:
     url: /blog
   - title: Admin
     url: /admin
+  - title: About
+    url: /about
