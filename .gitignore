@@ -106,3 +106,6 @@ dist
 # Jekyll
 _site/
 .jekyll-cache/
+
+# VSCode
+.vscode/
