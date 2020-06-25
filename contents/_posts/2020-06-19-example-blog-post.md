@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 author: Samuele Farfarini
 title: Example Blog post
 ---
