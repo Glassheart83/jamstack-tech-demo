@@ -17,8 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarContent">
         <div class="navbar-nav">
             {% for link in site.data.links.header %}
-            <a class="nav-item nav-link {% if page.permalink == link.url %}active{% endif %}"
-                href="{{ link.url | relative_url }}">{{ link.title }}</a>
+            <a class="nav-item nav-link {% if page.permalink == link.url %}active{% endif %}" href="{{ link.url | relative_url }}">{{ link.title }}</a>
             {% endfor %}
         </div>
     </div>

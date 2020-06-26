@@ -37,6 +37,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-maps
+
+# Google Maps Plugin
+maps:
+  google:
+    api_key: AIzaSyDn3U0boemXguGyTXsEcCGkgU3X0kOHTZ4
 
 # Contents
 collections_dir: contents

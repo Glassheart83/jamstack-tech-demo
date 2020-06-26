@@ -1,6 +1,23 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: no_webpack
 
 publish_mode: editorial_workflow
 media_folder: assets/images/uploads
+
+collections:
+  - name: posts
+    label: Blog Posts
+    folder: contents/_posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Tags", name: "tag", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: locations
+    label: Map Markers
+    file:
+

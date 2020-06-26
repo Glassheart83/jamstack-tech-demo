@@ -5,11 +5,11 @@
     <body>
         {% include layout_elements/header.html %}
 
-        <main class="container" aria-label="Content">
+        <main class="container" aria-label="Content" style="padding-top: 56px;">
             {{ content }}
         </main>
 
-        {% include layout_elements/footer.html %} {% include
-        netlify_redirect.html %}
+        {% include layout_elements/footer.html %}
+        {% include netlify_redirect.html %}
     </body>
 </html>
