@@ -3,11 +3,10 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-
-<ul class="post-list">
-    {% for post in site.posts %}
-    <li>
+{% for post in site.posts %}
+<section class="row">
+    <div class="col-lg-12">
         {{ post }}
-    </li>
-    {% endfor %}
-</ul>
+    </div>
+</section>
+{% endfor %}

@@ -1,9 +1,9 @@
 header:
-  - title: Map
-    url: /map
   - title: Blog
     url: /blog
-  - title: Admin
-    url: /admin
+  - title: Map
+    url: /map
   - title: About
     url: /about
+  - title: Admin
+    url: /admin

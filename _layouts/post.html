@@ -1,4 +1,9 @@
 <article>
-    <h1>{{ page.title }}</h1>
-    {{ content }}
+    <h3>{{ page.title }}</h3>
+    <blockquote class="blockquote text-right">
+        <footer class="blockquote-footer">
+            by <cite title="{{page.author}}">{{page.author}}</cite>
+        </footer>
+    </blockquote>
+    {{ page.content | markdownify }}
 </article>
