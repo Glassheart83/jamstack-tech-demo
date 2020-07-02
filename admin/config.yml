@@ -1,29 +1,26 @@
 backend:
   name: git-gateway
   branch: no_webpack
+  app_id: 958287ab48e7e7d9157e9a4b4c9dca7ed7b7758f
 
 publish_mode: editorial_workflow
 media_folder: assets/images/uploads
 
 collections:
-  - name: pages
-    label: Pages
-    files:
-      - name: locations
-        label: Map Markers
-        file: _data/locations.yml
-        create: true
-        format: yml
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Url", name: "url", widget: "string" }
-          - label: Location
-            name: location
-            widget: object
-            collapsed: false
-            fields:
-              - { label: "Latitude", name: "latitude", widget: "string" }
-              - { label: "Longitude", name: "longitude", widget: "string" }
+  - name: locations
+    label: Map Markers
+    folder: contents/_locations
+    create: true
+    slug: "{{slug}}"
+    fields:
+    - { label: "Title", name: "title", widget: "string" }
+    - name: location
+      label: Coordinates
+      widget: object
+      collapsed: false
+      fields:
+        - { label: "Latitude", name: "latitude", widget: "number", valueType: "float" }
+        - { label: "Longitude", name: "longitude", widget: "number", valueType: "float" }
   - name: posts
     label: Blog Posts
     folder: contents/_posts

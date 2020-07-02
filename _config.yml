@@ -51,6 +51,8 @@ collections:
     output: true
   slides:
     output: true
+  locations:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
