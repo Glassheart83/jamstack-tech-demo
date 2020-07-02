@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: no_webpack
-  app_id: 958287ab48e7e7d9157e9a4b4c9dca7ed7b7758f
 
 publish_mode: editorial_workflow
 media_folder: assets/images/uploads
