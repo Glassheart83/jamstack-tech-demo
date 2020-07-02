@@ -1,7 +1,7 @@
 ---
 layout: slide
 author: Mario Rossi
-background: /assets/images/slides/bg-2.jpg
+background: /assets/images/uploads/bg-2.jpg
 title: Slide Two Title
 ---
 ### Slide Two Title

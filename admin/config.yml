@@ -12,11 +12,18 @@ collections:
       - name: locations
         label: Map Markers
         file: _data/locations.yml
+        create: true
         format: yml
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Url", name: "url", widget: "string" }
-          - { label: "Location", name: "location", widget: "object" }
+          - label: Location
+            name: location
+            widget: object
+            collapsed: false
+            fields:
+              - { label: "Latitude", name: "latitude", widget: "string" }
+              - { label: "Longitude", name: "longitude", widget: "string" }
   - name: posts
     label: Blog Posts
     folder: contents/_posts
@@ -37,4 +44,5 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Background Image", name: "background", widget: "image"}
+      - { label: "Body", name: "body", widget: "markdown" }
 
