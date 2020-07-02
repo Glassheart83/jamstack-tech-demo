@@ -6,6 +6,17 @@ publish_mode: editorial_workflow
 media_folder: assets/images/uploads
 
 collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: locations
+        label: Map Markers
+        file: _data/locations.yml
+        format: yml
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Url", name: "url", widget: "string" }
+          - { label: "Location", name: "location", widget: "object" }
   - name: posts
     label: Blog Posts
     folder: contents/_posts
@@ -17,7 +28,13 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Tags", name: "tag", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: locations
-    label: Map Markers
-    file:
+  - name: slides
+    label: Carousel
+    folder: contents/_slides
+    create: true
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "slide" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Background Image", name: "background", widget: "image"}
 

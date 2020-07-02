@@ -49,6 +49,8 @@ collections_dir: contents
 collections:
   posts:
     output: true
+  slides:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
