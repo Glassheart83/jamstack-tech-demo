@@ -3,7 +3,5 @@ header:
     url: /blog
   - title: Map
     url: /map
-  - title: About
-    url: /about
   - title: Admin
     url: /admin

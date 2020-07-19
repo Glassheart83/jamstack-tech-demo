@@ -7,5 +7,10 @@
                 });
             }
         });
+
+
+        netlifyIdentity.on('logout', () => {
+            document.location.href = '/';
+        });
     }
 </script>
