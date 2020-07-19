@@ -2,6 +2,8 @@
 layout: post
 title: Yet Another Empty Post
 author: Carlo Rossi
+image: /assets/images/uploads/placeholder.jpg
+image_side: right
 tag:
   - pippo
   - pluto

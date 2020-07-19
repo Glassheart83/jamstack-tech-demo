@@ -1,9 +1,25 @@
-<article>
-    <h3>{{ page.title }}</h3>
-    <blockquote class="blockquote text-right">
-        <footer class="blockquote-footer">
-            by <cite title="{{page.author}}">{{page.author}}</cite>
-        </footer>
-    </blockquote>
-    {{ page.content | markdownify }}
+<article class="media">
+    {% if page.image_side == 'left' %}
+    <img src="{{ page.image | relative_url }}" class="align-self-top mr-3" alt="{{ page.title }}" />
+    {% endif %}
+    <div class="media-body">
+        <h3>{{ page.title }}</h3>
+        <div>
+            {{ page.content | markdownify }}
+        </div>
+        <blockquote class="blockquote text-right">
+            <footer class="blockquote-footer">
+                <cite title="{{page.author}}">{{page.author}}, {{ page.date | date: '%B %d, %Y' }}</cite>
+            </footer>
+        </blockquote>
+        <div>
+            Tags: {% for tag in page.tags %}
+            <span class="badge badge-secondary">{{ tag }}</span>
+            {% endfor %}
+        </div>
+    </div>
+    {% if page.image_side == 'right' %}
+    <img src="{{ page.image | relative_url }}" class="align-self-top ml-3" alt="{{ page.title }}" />
+    {% endif %}
 </article>
+<hr />

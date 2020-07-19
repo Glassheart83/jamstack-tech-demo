@@ -2,6 +2,14 @@
 layout: post
 author: Samuele Farfarini
 title: Example Blog post
+image: /assets/images/uploads/placeholder.jpg
+image_side: right
+tags:
+  - paperinik
+  - zio paperone
+  - qui
+  - quo
+  - qua
 ---
 *Lorem ipsum* dolor sit amet, consectetur adipiscing elit. Praesent ac consequat nisi, vitae convallis justo. Cras dui purus, mollis sed neque vel, tempus sagittis magna. Aliquam urna diam, varius ut massa ac, lacinia interdum arcu. Vestibulum luctus laoreet imperdiet. Duis sed tempus nisi, eget congue felis. In quis diam sit amet augue congue dapibus. Maecenas sapien orci, feugiat ultrices finibus id, eleifend id leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
 

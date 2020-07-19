@@ -2,6 +2,11 @@
 layout: post
 author: Samuele Farfarini
 title: Another Example
+image: /assets/images/uploads/placeholder.jpg
+image_side: left
+tags:
+  - topolino
+  - basettoni
 ---
 Donec at bibendum eros, ac eleifend ipsum. Aenean quis pulvinar felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque vitae scelerisque enim. Morbi placerat tortor gravida, efficitur urna quis, tristique sem. Aliquam pretium egestas egestas. Mauris egestas, purus id efficitur pellentesque, dui erat tempus augue, et cursus dui felis ac est. Donec a lobortis arcu, sit amet venenatis lorem. In id ultricies metus. Integer cursus euismod nunc. Suspendisse potenti. Nam ac metus sed lorem gravida eleifend ac vel quam. Praesent eget fermentum risus.
 
