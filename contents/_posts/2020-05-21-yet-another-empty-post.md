@@ -2,12 +2,12 @@
 layout: post
 title: Yet Another Empty Post
 author: Carlo Rossi
-image: /assets/images/uploads/placeholder.jpg
-image_side: right
 tag:
   - pippo
   - pluto
   - paperino
+image: /assets/images/uploads/3-lagrange-open-day-comunali-genn-2020-03.png
+image_side: left
 ---
 Proin in congue lorem. Vivamus semper risus nibh, id rutrum mauris dictum at. Nullam tincidunt, erat et sodales condimentum, lectus quam iaculis nulla, vitae blandit est eros in odio. Praesent nisl sapien, malesuada in quam in, laoreet accumsan justo. Pellentesque eleifend massa sit amet ipsum efficitur, in suscipit erat maximus. Etiam nec finibus augue. Cras ornare ultrices ornare. Maecenas ut mattis turpis. Aenean vel quam sagittis, venenatis erat quis, lobortis arcu. Proin quis lectus convallis, congue nulla ut, elementum mi. Suspendisse ipsum justo, maximus pulvinar pretium nec, maximus non turpis. Pellentesque feugiat nulla augue, in auctor leo lobortis sed.
 
