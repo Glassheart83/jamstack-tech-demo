@@ -1,10 +1,11 @@
 ---
 layout: slide
-author: Mario Rossi
-background: /assets/images/uploads/bg-1.jpg
 title: Slide One Title
+author: Mario Rossi
+background: /assets/images/uploads/zoe-tameris-lund.jpg
 ---
-### Slide One Title
+### TITOLO 1
+
 Ut et finibus leo.
 Ut lacinia pulvinar ligula, eu cursus risus imperdiet placerat.
 Suspendisse potenti.
